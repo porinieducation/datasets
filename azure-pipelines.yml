@@ -15,5 +15,6 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
+    git remote --add https://dev.azure.com/porinieducation/edu_code/_git/datasets?path=/devops_file.txt https://github.com/porinieducation/datasets/blob/main/
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
